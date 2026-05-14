@@ -1,0 +1,24 @@
+/* Admin: đọc được tiêu đề cột bảng (ghi đè teachers/dash.css — th màu #fafafa) */
+.admin-table th {
+  background-color: #cfcfcf !important;
+  color: #000000 !important;
+  font-weight: 600;
+}
+.admin-table td {
+  color: #111111;
+  background-color: #ffffff;
+}
+.admin-table tbody tr:nth-child(even) td {
+  background-color: #f3f3f3;
+}
+
+/* Tiêu đề khối (Danh sách / Thêm …) trong thẻ .title */
+.home-content .stat-boxes .recent-stat .title,
+.recent-stat.box > .title:first-child {
+  color: #111111 !important;
+}
+
+.home-content .stat-boxes .details,
+.home-content .stat-boxes .details li {
+  color: #222222;
+}

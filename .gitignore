@@ -1,0 +1,12 @@
+# Visual Studio / Cursor
+.vs/
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# PHP / local
+*.log
+.env
+.env.local
