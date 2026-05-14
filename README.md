@@ -18,8 +18,8 @@ Hệ thống kiểm tra trực tuyến (PHP + MySQL), hỗ trợ ba vai trò: **
 
 ## Yêu cầu hệ thống
 
-- PHP 7.x trở lên (khuyến nghị 8.x)
-- MySQL hoặc MariaDB
+- PHP 7.x trở lên
+- MySQL
 - Extension `mysqli`
 
 ## Cài đặt nhanh
@@ -70,12 +70,8 @@ login_*.php      # Các trang đăng nhập
 ## Bảo mật & lưu ý
 
 - Mật khẩu đang dùng **MD5** (đơn giản cho môi trường học tập). Trên môi trường thật, nên nâng cấp lên `password_hash()` / bcrypt và HTTPS.
-- Dữ liệu cũ không có `teacher_id` trên đề hoặc học sinh sẽ không hiện trong panel giáo viên cho đến khi admin gán tay trong DB hoặc tạo lại bản ghi.
 
 ## Tác giả
 
-**Snowman Nguyen** — dự án cá nhân, toàn bộ mã nguồn và tài liệu do một người phát triển và duy trì.
-
 - GitHub: [@SnowmanNguyen](https://github.com/SnowmanNguyen)  
-- Repository: [Online_Exam_System](https://github.com/SnowmanNguyen/Online_Exam_System)  
-- © 2026
+- Email: [snowman8k5@gmail.com]
